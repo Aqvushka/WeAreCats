@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 238, 226);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="back">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>520</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Вернуться</string>
+    </property>
+   </widget>
+   <widget class="QTabWidget" name="tabWidget">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>10</y>
+      <width>741</width>
+      <height>501</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="tab">
+     <attribute name="title">
+      <string>American Sh</string>
+     </attribute>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>510</x>
+        <y>80</y>
+        <width>221</width>
+        <height>311</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>american.jpg</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_2">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>30</y>
+        <width>431</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Американская короткошерстная кошка&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_3">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>110</y>
+        <width>701</width>
+        <height>321</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;	Американскую короткошерстную кошку разводят в США с 1965 года. Своим внешним&lt;/p&gt;&lt;p&gt;видом и окрасом она напоминает европейских короткошерстных кошек. Окрас&lt;/p&gt;&lt;p&gt;породы: кремовая, белая, голубая, красная, «черный дым», черная, «голубой дым».&lt;/p&gt;&lt;p&gt;Есть еще одна разновидность окраса, которая получила название ginger (имбирь). По&lt;/p&gt;&lt;p&gt;характеру американских короткошерстных кошек можно определить как ласковых и&lt;/p&gt;&lt;p&gt;добрых, понятливых и прыгучих, которые отличаются своей смелостью и хорошими&lt;/p&gt;&lt;p&gt;охотничьими качествами.&lt;/p&gt;&lt;p&gt;	Американские короткошерстные кошки очень ленивы, поэтому хорошо, если хозяин&lt;/p&gt;&lt;p&gt;будет поощрять свою кошку к физическим упражнениям или устраивать с ней&lt;/p&gt;&lt;p&gt;продолжительные игры. Шерсть не нуждается в расчесывании. Эти кошки хорошо&lt;/p&gt;&lt;p&gt;осваиваются в любой среде обитания и прекрасно ладят с любыми соседями.&lt;/p&gt;&lt;p&gt;короткошерстная американская кошка понятлива и интеллигентна, послушна и любит&lt;/p&gt;&lt;p&gt;мурлыкать, а так же она является отличным охранником.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <zorder>label_2</zorder>
+     <zorder>label_3</zorder>
+     <zorder>label</zorder>
+    </widget>
+    <widget class="QWidget" name="tab_4">
+     <attribute name="title">
+      <string>British Sh</string>
+     </attribute>
+     <widget class="QLabel" name="label_4">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>40</y>
+        <width>391</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Британская короткошерстная кошка&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_5">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>90</y>
+        <width>691</width>
+        <height>391</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Британские короткошерстные демонстрируют послушание, когда это необходимо и&lt;/p&gt;&lt;p&gt;решительно заявят, что хотят поиграть. Любят общество, но иногда своим&lt;/p&gt;&lt;p&gt;выражением дают понять, что ждут не дождутся, когда останутся одни.&lt;/p&gt;&lt;p&gt;Работающие владельцы могут быть спокойны, оставляя их дома. Они могут быть&lt;/p&gt;&lt;p&gt;активными и игривыми, но больше любят понежиться в укромном местечке. Они&lt;/p&gt;&lt;p&gt;идеальны для содержания в квартире, но и в загородном доме не доставят Вам&lt;/p&gt;&lt;p&gt;хлопот: дальше укромного, присмотренного места на участке они не уйдут.&lt;/p&gt;&lt;p&gt;Шерсть короткая, плотная, густая. Иногда ее называют «хрустящей» или&lt;/p&gt;&lt;p&gt;«рассыпчатой», имея в виду то, как она распадается по контору тела, плюшевая на&lt;/p&gt;&lt;p&gt;ощупь. Разнообразие цветов и типов окраса велико. Одним из самых популярных&lt;/p&gt;&lt;p&gt;является «голубой», у заводчиков даже есть специальное название &amp;quot;Британская&lt;/p&gt;&lt;p&gt;короткошерстная голубая кошка&amp;quot;. Но есть еще лиловые, у которых окрас цвета&lt;/p&gt;&lt;p&gt;голубой норковой шубки, а лиловые только мочка носа и подушечки лап. А еще они&lt;/p&gt;&lt;p&gt;бывают черными и белыми, шоколадными и красными двух- и трехцветными.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_6">
+      <property name="geometry">
+       <rect>
+        <x>500</x>
+        <y>80</y>
+        <width>221</width>
+        <height>361</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>british.jpg</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_2">
+     <attribute name="title">
+      <string>Korat</string>
+     </attribute>
+     <widget class="QLabel" name="label_7">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>50</y>
+        <width>171</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Корат&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_8">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>100</y>
+        <width>711</width>
+        <height>371</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;КОРАТ – это «кошка счастья» из Юго-восточной Азии, получившая название по&lt;/p&gt;&lt;p&gt;одноименной провинции Таиланда. Корат – серо-голубая короткошерстная кошка, &lt;/p&gt;&lt;p&gt;маленького или среднего телосложения, мускулистая и довольно тяжёлая для своего размера. &lt;/p&gt;&lt;p&gt;Корат очень популярен в Таиланде, хотя порода редкая и котенка из-за повышенного спроса приобрести трудно. &lt;/p&gt;&lt;p&gt;На плакатах вдоль автомагистралей можно увидеть девушку в национальной одежде, которая держит на руках кошку породы Корат –&lt;/p&gt;&lt;p&gt;символ благосостояния и преуспевания.&lt;/p&gt;&lt;p&gt;В Таиланде коты славятся своими бойцовскими качествами, тем не менее, они&lt;/p&gt;&lt;p&gt;счастливо живут со своими кошками и котятами, проявляя качества заботливых&lt;/p&gt;&lt;p&gt;отцов. Кошки любящие, заботливые и аккуратные матери. В помете бывает 3-4&lt;/p&gt;&lt;p&gt;котенка. С рождения шубка у котят серо-голубого с серебристым отливом цвета, а&lt;/p&gt;&lt;p&gt;вот глаза бывают как лучисто-зелёные, так и янтарно-жёлтые.&lt;/p&gt;&lt;p&gt;Они активны, игривы, легко уживаются с собаками или кошками своей породы. Они&lt;/p&gt;&lt;p&gt;менее требовательны и разговорчивы, чем их сиамские сородичи, но всегда смогут&lt;/p&gt;&lt;p&gt;выразить свои пожелания и ожидания. «Кошка веселого очарования» - так часто&lt;/p&gt;&lt;p&gt;называют Коратов.&lt;/p&gt;&lt;p&gt;Вместе с тем Кораты очень ревнивы, настороженно относятся к незнакомцам, плохо&lt;/p&gt;&lt;p&gt;переносят шум и громкие звуки.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_9">
+      <property name="geometry">
+       <rect>
+        <x>510</x>
+        <y>240</y>
+        <width>201</width>
+        <height>201</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>korat.jpg</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
